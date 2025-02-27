@@ -412,13 +412,14 @@ function formatDate(date) {
 async function loadCategoryData(category) {
     try {
         const jsonFiles = {
-            water: './Ejercicio-04/json/water-data.json',
-            cleaning: './Ejercicio-04/json/cleaning-data.json',
-            office: './Ejercicio-04/json/office-data.json',
-            services: './Ejercicio-04/json/services-data.json',
-            internet: './Ejercicio-04/json/internet-data.json'
+            water: '../json/water-data.json',
+            cleaning: '../json/cleaning-data.json',
+            office: '../json/office-data.json',
+            services: '../json/services-data.json',
+            internet: '../json/internet-data.json'
         };
-        console.log('Loading:', jsonFiles[category]);
+        
+        console.log('Attempting to load:', jsonFiles[category]);
         const response = await fetch(jsonFiles[category]);
         
         if (!response.ok) {
@@ -434,14 +435,12 @@ async function loadCategoryData(category) {
             case 'water':
                 return { totals: { annualWithVAT: data.consumptionData.totals.yearlyConsumption } };
             case 'services':
-                return { totals: { annualWithVAT: data.consumptionData.totals.annualWithVAT } };
             case 'office':
                 return { totals: { annualWithVAT: data.consumptionData.totals.annualWithVAT } };
             case 'internet':
                 return data;
             default:
-                console.error('Categoría no reconocida:', category);
-                return null;
+                throw new Error('Categoría no reconocida: ' + category);
         }
     } catch (error) {
         console.error(`Error loading ${category} data:`, error);
