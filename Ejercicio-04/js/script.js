@@ -116,40 +116,6 @@ function getDateRange() {
 
     return { startDate, endDate };
 }
-async function loadCategoryData(category) {
-    try {
-        const jsonFiles = {
-            water: './Ejercicio-04/json/water-data.json',
-            cleaning: './Ejercicio-04/json/cleaning-data.json',
-            office: './Ejercicio-04/json/office-data.json',
-            services: './Ejercicio-04/json/services-data.json',
-            internet: './Ejercicio-04/json/internet-data.json'
-        };
-        const response = await fetch(jsonFiles[category]);
-        if (!response.ok) {
-            throw new Error(`Error loading ${category} consumption data`);
-        }
-        const data = await response.json();
-        console.log('Data loaded:', data); // Añadir esto para depurar
-
-        if (category === 'cleaning') {
-            return { totals: { annualWithVAT: parseFloat(data["ANUAL CON IVA"].replace(',', '.').replace(' €', '')) } };
-        }
-
-        if (category === 'water') {
-            return { totals: { annualWithVAT: data.consumptionData.totals.yearlyConsumption } };
-        }
-
-        if (category === 'internet') {
-            return data;
-        }
-
-        return data.consumptionData;
-    } catch (error) {
-        console.error(`Error loading ${category} consumption data:`, error);
-        return null;
-    }
-}
 async function calculate() {
     const category = document.getElementById('category').value;
     const dateRange = getDateRange();
@@ -446,11 +412,11 @@ function formatDate(date) {
 async function loadCategoryData(category) {
     try {
         const jsonFiles = {
-            water: '../../json/water-data.json',
-            cleaning: '../../json/cleaning-data.json',
-            office: '../../json/office-data.json',
-            services: '../../json/services-data.json',
-            internet: '../../json/internet-data.json'
+            water: './Ejercicio-04/json/water-data.json',
+            cleaning: './Ejercicio-04/json/cleaning-data.json',
+            office: './Ejercicio-04/json/office-data.json',
+            services: './Ejercicio-04/json/services-data.json',
+            internet: './Ejercicio-04/json/internet-data.json'
         };
         console.log('Loading:', jsonFiles[category]);
         const response = await fetch(jsonFiles[category]);
