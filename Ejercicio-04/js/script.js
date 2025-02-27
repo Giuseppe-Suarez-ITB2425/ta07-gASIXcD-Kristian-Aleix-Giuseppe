@@ -446,11 +446,11 @@
     async function loadCategoryData(category) {
         try {
             const jsonFiles = {
-                water: './Ejercicio-04/json/water-data.json',
-                cleaning: './Ejercicio-04/json/cleaning-data.json',
-                office: './Ejercicio-04/json/office-data.json',
-                services: './Ejercicio-04/json/services-data.json',
-                internet: './Ejercicio-04/json/internet-data.json'
+                water: '../json/water-data.json',
+                cleaning: '../json/cleaning-data.json',
+                office: '../json/office-data.json',
+                services: '../json/services-data.json',
+                internet: '../json/internet-data.json'
             };
             
             console.log('Loading:', jsonFiles[category]);
