@@ -119,11 +119,11 @@ function getDateRange() {
 async function loadCategoryData(category) {
     try {
         const jsonFiles = {
-            water: 'data/water-data.json',
-            cleaning: 'data/cleaning-data.json',
-            office: 'data/office-data.json',
-            services: 'data/services-data.json',
-            internet: 'data/internet-data.json'
+            water: '../data/water-data.json',
+            cleaning: '../data/cleaning-data.json',
+            office: '../data/office-data.json',
+            services: '../data/services-data.json',
+            internet: '../data/internet-data.json'
         };
         const response = await fetch(jsonFiles[category]);
         if (!response.ok) {
