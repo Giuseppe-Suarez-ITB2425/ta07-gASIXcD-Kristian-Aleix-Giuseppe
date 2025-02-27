@@ -1,0 +1,134 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #E8F5E9; /* Verde muy claro */
+    color: #2E7D32; /* Verde oscuro */
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+h1, h2 {
+    text-align: center;
+    color: #1B5E20; /* Verde más oscuro */
+    margin-bottom: 30px;
+}
+
+/* Botones */
+button {
+    background-color: #388E3C; /* Verde medio */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #2E7D32; /* Verde más oscuro */
+}
+
+/* Selectores y entradas */
+select, input {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #A5D6A7;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #E8F5E9;
+    margin-bottom: 15px;
+}
+
+/* Estilo específico para inputs de fecha */
+input[type="date"] {
+    width: 150px;
+    padding: 8px;
+}
+
+/* Estilo para los contenedores de los selectores */
+.category-selector, .input-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.category-selector label, .input-group label {
+    min-width: 140px;
+}
+
+/* Contenedor de gráficos */
+.chart-container {
+    width: 95%;
+    height: 400px;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Iconos */
+.icon {
+    width: 80px; /* Reducido de tamaño */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Recomendaciones */
+.recommendations {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #C8E6C9; /* Verde suave */
+    border-radius: 8px;
+}
+
+.recommendations-content {
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.recommendation-box {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.recommendation-box h3 {
+    color: #388E3C;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.recommendation-box .icon {
+    width: 50px; /* Ajusta el tamaño del icono */
+    height: auto;
+}
+
+.recommendation-box .text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.recommendation-box li:before {
+    content: "•";
+    color: #388E3C;
+    position: absolute;
+    left: 0;
+}
