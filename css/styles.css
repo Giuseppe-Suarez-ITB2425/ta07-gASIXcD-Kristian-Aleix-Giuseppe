@@ -51,6 +51,12 @@ select, input {
     margin-bottom: 15px; /* Añadir separación entre elementos */
 }
 
+/* Estilo específico para inputs de fecha */
+input[type="date"] {
+    width: 150px;
+    padding: 8px;
+}
+
 /* Contenedor de gráficos */
 .chart-container {
     width: 95%;
