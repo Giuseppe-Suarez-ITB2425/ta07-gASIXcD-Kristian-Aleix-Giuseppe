@@ -42,30 +42,13 @@ button:hover {
 
 /* Selectores y entradas */
 select, input {
-    width: 250px;
+    width: 100%;
     padding: 10px;
-    border: 1px solid #A5D6A7;
+    border: 1px solid #A5D6A7; /* Verde suave */
     border-radius: 4px;
     font-size: 16px;
-    background-color: #E8F5E9;
-    margin-bottom: 15px;
-}
-
-/* Estilo específico para inputs de fecha */
-input[type="date"] {
-    width: 150px;
-    padding: 8px;
-}
-
-/* Estilo para los contenedores de los selectores */
-.category-selector, .input-group {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.category-selector label, .input-group label {
-    min-width: 140px;
+    background-color: #E8F5E9; /* Verde muy claro */
+    margin-bottom: 15px; /* Añadir separación entre elementos */
 }
 
 /* Contenedor de gráficos */
