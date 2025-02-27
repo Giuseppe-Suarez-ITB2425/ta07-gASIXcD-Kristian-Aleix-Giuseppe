@@ -517,4 +517,9 @@ window.onload = () => {
     updateCalculator();
     updateDateInputs();
     document.getElementById('recommendationsContent').style.display = 'none';
+    
+    // Add event listeners
+    document.getElementById('category').addEventListener('change', updateCalculator);
+    document.getElementById('dateRangeType').addEventListener('change', updateDateInputs);
+    document.getElementById('showRecommendationsBtn').addEventListener('click', toggleRecommendations);
 };
