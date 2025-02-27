@@ -95,7 +95,7 @@ function getDateRange() {
     switch (dateRangeType) {
         case 'nextYear':
             startDate = new Date(2026, 0, 1); // 1 de enero de 2026
-            endDate = new Date(2027, 11, 31); // 31 de diciembre de 2027
+            endDate = new Date(2026, 11, 31); // 31 de diciembre de 2026
             break;
 
         case 'schoolYear':
