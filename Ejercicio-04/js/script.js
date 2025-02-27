@@ -446,11 +446,11 @@ function formatDate(date) {
 async function loadCategoryData(category) {
     try {
         const jsonFiles = {
-            water: '../json/water-data.json',
-            cleaning: '../json/cleaning-data.json',
-            office: '../json/office-data.json',
-            services: '../json/services-data.json',
-            internet: '../json/internet-data.json'
+            water: './json/water-data.json',
+            cleaning: './json/cleaning-data.json',
+            office: './json/office-data.json',
+            services: './json/services-data.json',
+            internet: './json/internet-data.json'
         };
         
         console.log('Loading:', jsonFiles[category]);
