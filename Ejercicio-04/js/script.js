@@ -40,7 +40,6 @@ const recommendations = {
         "Instalar grifos con sensores o temporizadores",
         "Detectar y reparar fugas rápidamente",
         "Recoger agua de lluvia por riego",
-        "Utilitzar cisternes de doble descàrrega",
         "Utilizar cisternas de doble descarga"
     ],
     office: [
