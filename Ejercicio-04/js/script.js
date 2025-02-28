@@ -30,11 +30,11 @@ const categoryUnits = {
 };
 const recommendations = {
     teléfonos: [
-        "Utilizar luz natural siempre que sea posible",
-        "Instalar sensores de movimiento por el alumbrado",
-        "Canviar a bombetes LED d'alta eficiència",
-        "Cambiar a bombillas LED de alta eficiencia",
-        "Mantener a los equipos apagados fuera de horario"
+        "Limitar el uso de teléfonos móviles en clase",
+        "Educación sobre el uso responsable de móviles",
+        "Fomentar actividades sin móviles",
+        "Fomentar el uso de tecnología educativa adecuada",
+        "Almacenar los teléfonos en un lugar seguro"
     ],
     water: [
         "Instalar grifos con sensores o temporizadores",
