@@ -1,0 +1,56 @@
+{
+  "data": [
+    {
+      "grupo": "ASIXc1A",
+      "registros": [
+        {"fecha": "15/11/24", "moviles_a_taula": 3, "alumnado_aula": 20, "porcentaje_moviles": 15.00},
+        {"fecha": "21/11/24", "moviles_a_taula": 7, "alumnado_aula": 19, "porcentaje_moviles": 36.84},
+        {"fecha": "22/11/24", "moviles_a_taula": 5, "alumnado_aula": 21, "porcentaje_moviles": 23.81},
+        {"fecha": "28/11/24", "moviles_a_taula": 6, "alumnado_aula": 19, "porcentaje_moviles": 31.58},
+        {"fecha": "29/11/24", "moviles_a_taula": 5, "alumnado_aula": 22, "porcentaje_moviles": 22.73},
+        {"fecha": "12/12/24", "moviles_a_taula": 3.5, "alumnado_aula": 19, "porcentaje_moviles": 18.42},
+        {"fecha": "13/12/24", "moviles_a_taula": 11, "alumnado_aula": 19, "porcentaje_moviles": 57.89},
+        {"fecha": "19/12/24", "moviles_a_taula": 9.5, "alumnado_aula": 18, "porcentaje_moviles": 52.78},
+        {"fecha": "09/01/25", "moviles_a_taula": 9, "alumnado_aula": 20, "porcentaje_moviles": 45.00},
+        {"fecha": "16/01/25", "moviles_a_taula": 8, "alumnado_aula": 18, "porcentaje_moviles": 44.44},
+        {"fecha": "17/01/25", "moviles_a_taula": 7, "alumnado_aula": 19, "porcentaje_moviles": 36.84}
+      ],
+      "media_porcentaje": 38.74
+    },
+    {
+      "grupo": "ASIXc1B",
+      "registros": [
+        {"fecha": "16/11/24", "moviles_a_taula": 6, "alumnado_aula": 21, "porcentaje_moviles": 28.57},
+        {"fecha": "22/11/24", "moviles_a_taula": 3, "alumnado_aula": 20, "porcentaje_moviles": 15.00},
+        {"fecha": "26/11/24", "moviles_a_taula": 2.5, "alumnado_aula": 20, "porcentaje_moviles": 12.50},
+        {"fecha": "29/11/24", "moviles_a_taula": 4, "alumnado_aula": 21, "porcentaje_moviles": 19.05},
+        {"fecha": "03/12/24", "moviles_a_taula": 1, "alumnado_aula": 21, "porcentaje_moviles": 4.76},
+        {"fecha": "10/12/24", "moviles_a_taula": 3, "alumnado_aula": 17, "porcentaje_moviles": 17.65},
+        {"fecha": "13/12/24", "moviles_a_taula": 6.5, "alumnado_aula": 19, "porcentaje_moviles": 34.21},
+        {"fecha": "17/12/24", "moviles_a_taula": 4, "alumnado_aula": 17, "porcentaje_moviles": 23.53},
+        {"fecha": "14/01/25", "moviles_a_taula": 3, "alumnado_aula": 18, "porcentaje_moviles": 16.67},
+        {"fecha": "17/01/25", "moviles_a_taula": 4, "alumnado_aula": 17, "porcentaje_moviles": 23.53}
+      ],
+      "media_porcentaje": 20.77
+    },
+    {
+      "grupo": "ASIXc1C",
+      "registros": [
+        {"fecha": "18/11/24", "moviles_a_taula": 11, "alumnado_aula": 18, "porcentaje_moviles": 61.11},
+        {"fecha": "19/11/24", "moviles_a_taula": 6, "alumnado_aula": 19, "porcentaje_moviles": 31.58},
+        {"fecha": "25/11/24", "moviles_a_taula": 3.5, "alumnado_aula": 18, "porcentaje_moviles": 19.44},
+        {"fecha": "26/11/24", "moviles_a_taula": 14.5, "alumnado_aula": 18, "porcentaje_moviles": 80.56},
+        {"fecha": "02/12/24", "moviles_a_taula": 8, "alumnado_aula": 18, "porcentaje_moviles": 44.44},
+        {"fecha": "03/12/24", "moviles_a_taula": 6, "alumnado_aula": 16, "porcentaje_moviles": 37.50},
+        {"fecha": "09/12/24", "moviles_a_taula": 3.5, "alumnado_aula": 15, "porcentaje_moviles": 23.33},
+        {"fecha": "10/12/24", "moviles_a_taula": 6, "alumnado_aula": 17, "porcentaje_moviles": 35.29},
+        {"fecha": "16/12/24", "moviles_a_taula": 2, "alumnado_aula": 17, "porcentaje_moviles": 11.76},
+        {"fecha": "17/12/24", "moviles_a_taula": 5, "alumnado_aula": 15, "porcentaje_moviles": 33.33},
+        {"fecha": "13/01/25", "moviles_a_taula": 5, "alumnado_aula": 13, "porcentaje_moviles": 38.46},
+        {"fecha": "14/01/25", "moviles_a_taula": 11, "alumnado_aula": 18, "porcentaje_moviles": 61.11},
+        {"fecha": "20/01/25", "moviles_a_taula": 11, "alumnado_aula": 16, "porcentaje_moviles": 68.75}
+      ],
+      "media_porcentaje": 44.73
+    }
+  ]
+}
